@@ -1,0 +1,9 @@
+# Get User Info
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "service": "com.hunknownz.foxrpc.demo.api.UserService",
+  "method": "findById",
+  "args": [100]
+}
